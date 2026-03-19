@@ -1,0 +1,9 @@
+[project]
+builder = "nodejs"
+build = "npm install && npm run build"
+start = "npm start"
+
+[env]
+NIXPACKS_NODE_VERSION = "22"
+COOLIFY_URL = "https://out.bohra.ru"
+COOLIFY_FQDN = "out.bohra.ru"
